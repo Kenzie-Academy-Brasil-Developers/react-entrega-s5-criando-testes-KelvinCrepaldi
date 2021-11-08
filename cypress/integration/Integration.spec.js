@@ -1,4 +1,4 @@
-context("E2E", () => {
+context("Full integration test", () => {
   it("should access the page", () => {
     cy.visit("http://localhost:3000");
     cy.viewport(1400, 900);
